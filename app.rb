@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get '/info' do
+  get "/info" do
     erb :index
   end
 
